@@ -13,8 +13,14 @@ public class App {
         Cat cat = new Cat();
         output("Blick von aussen: " + cat);
         output("Blick von Innen: " + cat.getInstanceVariable());
-
         // cat.tellYourAdress();
+        output("------------------");
+
+        Cat cat2 = new Cat();
+        output("Blick von aussen: " + cat2);
+        output("Blick von Innen: " + cat2.getInstanceVariable());
+        output("------------------");
+        
     }
 
 
