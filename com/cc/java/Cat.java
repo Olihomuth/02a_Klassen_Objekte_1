@@ -2,15 +2,11 @@ package com.cc.java;
 
 public class Cat {
 
-    public void sayHello(){
-        System.out.println("Hello!");
-    }
+    // Eigenschaften / Felder / Attribute
+    String firstName;
+    String furColor;
+    int age;
 
-
-    // this --> Instanzvariable
-    public void tellYourAdress(){
-        App.output("Blick von Innen " + this);
-    }
 
     public Cat getInstanceVariable(){
         return this;
