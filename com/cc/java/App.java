@@ -33,6 +33,11 @@ public class App {
         output(cat2.getFurColor());
         output(Integer.toString(cat2.getAge()));
 
+        output("------------------");
+
+        cat2.setAge(36);
+        output(Integer.toString(cat2.getAge()));
+
     }
 
 
